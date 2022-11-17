@@ -66,17 +66,17 @@ function init() {
             addRole();
             break;
 
-            case 'Delete Employee': 
-            deleteEmployee();
-            break;
+            // case 'Delete Employee': 
+            // deleteEmployee();
+            // break;
 
-            case 'Delete Department': 
-            deleteDepartment();
-            break;
+            // case 'Delete Department': 
+            // deleteDepartment();
+            // break;
 
-            case 'Delete Role': 
-            deleteRole();
-            break;
+            // case 'Delete Role': 
+            // deleteRole();
+            // break;
 
             case 'Exit Employee Tracker': 
             console.log('Thank you! Have a great day!');
