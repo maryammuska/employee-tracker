@@ -13,9 +13,6 @@
     },
     "author": "",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Reyes-Jose/Employee-Tracker/issues"
-    },
     "homepage": "https://github.com/Reyes-Jose/Employee-Tracker#readme",
     "dependencies": {
       "console.table": "^0.10.0",
