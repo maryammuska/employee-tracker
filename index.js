@@ -5,7 +5,7 @@ const cTable = require("console.table");
 
 const db = mysql.createConnection({
     host: 'localhost',
-    port: '3001',
+    port: '3306',
     user: 'root',
     password: 'Haidar11',
     database: 'employeetracker_db'
@@ -37,7 +37,7 @@ function init() {
             ]
         }
     ]).then(data => {
-        switch(data.init){
+        switch(data.choice){
             case 'View All Departments': 
             viewAllDepartments();
             break;
@@ -65,18 +65,6 @@ function init() {
             case 'Add Role': 
             addRole();
             break;
-
-            // case 'Delete Employee': 
-            // deleteEmployee();
-            // break;
-
-            // case 'Delete Department': 
-            // deleteDepartment();
-            // break;
-
-            // case 'Delete Role': 
-            // deleteRole();
-            // break;
 
             case 'Exit Employee Tracker': 
             console.log('Thank you! Have a great day!');
@@ -157,17 +145,17 @@ function addRole(){
     inquirer.prompt(
       {
           type: 'input',
-          message: 'Add role name: ',
+          message: 'What is the role name? ',
           name: 'roleName',
       },
       {
         type: 'input',
-        message: 'Add Salary',
+        message: 'What is the salary of the role?',
         name: 'salaryAmount'
       },
       {
         type: 'input',
-        message: 'Add Department ID',
+        message: 'What department is the role under?',
         name: 'departmentID'
       },
      
