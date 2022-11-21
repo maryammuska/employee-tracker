@@ -29,13 +29,6 @@ SO THAT I can organize and plan my business
 
 `npm install console-table`
 
-`npm install figlet`
-
-`npm install chalk`
-
-`npm install nodemon`
-
-`npm install validator`
 
 ## Usage
 
