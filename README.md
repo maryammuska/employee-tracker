@@ -36,6 +36,10 @@ This app is used to keep track of employees, departments, and roles. It is used 
 
 ## Walkthrough video
 
+
+https://user-images.githubusercontent.com/101304518/203177725-3f6c73c7-fd73-465a-a055-2b4ad871a370.mp4
+
+
   
 ## Acceptance Criteria
   
