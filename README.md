@@ -65,7 +65,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 
 ## Contributing
-[Maryam Muska](https://github.com/maryam-muska)
+Author: [Maryam Muska](https://github.com/maryam-muska)
 
 ## Questions
 ✉️ Contact me with any questions: [email](mailto:maryammuska@yahoo.com) , [GitHub](https://github.com/maryam-muska)<br />
